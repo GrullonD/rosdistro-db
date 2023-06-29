@@ -597,6 +597,10 @@ python3-qt5-bindings-webkit:
     chocolatey:
       depends: [python3-qt5-bindings]
       packages: []
+python3-requests:
+  windows:
+    pip:
+      packages: [requests]
 python3-rosdep:
   windows:
     pip:
